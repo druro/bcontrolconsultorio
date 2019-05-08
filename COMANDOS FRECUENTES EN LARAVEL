@@ -1,0 +1,26 @@
+COMANDOS FRECUENTES EN LARAVEL
+control P = busca archivos en sublime text
+CREAR UN NEUVO PROYECTO LARAVEL 
+composer create-project --prefer-dist laravel/laravel blog
+ se cambia la palabra blog por el nombre del proyecto que se quiere dar 
+
+
+ comandos artisan   deben de ejecutarse dento de la carpeta del proyecto 
+
+ php artisan serve     sirve para encender el servidor del proyecto y correr y ver como va el proyecto
+
+ php artisan make:controller TestController  cambiar palabra Tescontroller por el nombre del controlador
+
+ php artisan make:auth genra los archivos necearios para un sistema de autentificacion 
+
+ php artisan migarte  sirve para migrar crear registros tablas y campos en las bases de datos 
+
+ corregir el problema de bases de datos cuando no quiere crearese la tablas 
+
+ buscar archivo AppServcideProvaider
+ en el metodo boot colocar la siguiente linea
+ Schema::defaultStringLength(191);
+ depues declara el usos de schema 
+ use Illuminate\Support\Facades\Schema;
+
+ Midlewareews   esta priemro la ruta despues el midleware y luego el controlador
